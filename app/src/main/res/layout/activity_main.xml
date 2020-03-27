@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:id="@+id/etInputUmur"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Masukan Tahun kelahiran"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="83dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/tvUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur = "
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/btHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF9800"
+        android:text="Hitung"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+</LinearLayout>
